@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{fixltx2e}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage{amssymb}
+\begin{document}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\pagestyle{fancy}
+\fancyhead[L]{\fontsize{9}{9} \selectfont Jonathan Lahnsteiner}
+\fancyhead[R]{\fontsize{9}{9} \selectfont 15.01.2015}
+
+\title{Associated Legendre Polynomials}
+\maketitle
+
+\section{General}
+
+Assocoiated Legendre Polynomials are the canonical solutions to the General Legendre differential equation \ref{1}. The term canonical may refer in this context
+to a natural representation. For example canonical coordinates are a set of coordinates which describe a system properly at any given time. But canonical
+may also refer to a unique representation of a given mathematical problem like for example the solutions to the generalized Legendre differential equation.
+
+\begin{equation}
+ \frac{d}{dx} \left [ \left ( 1-x^{2} \right )\frac{d}{dx}P_{l}^{m} \left ( x \right ) \right ] + \left [ l\left( l + 1 \right ) 
+   - \frac{m^{2}}{1-x^{2}} \right ]P_{l}^{m} \left ( x \right ) = 0
+   \label{1}
+\end{equation}
+
+\noindent
+In this equation $P_{l}^{m} \left ( x \right )$ denotes the associated Legendre polynomial and m and l are integers which refer to the degree and order
+of the considered polynomial respectively. The equation has a finite number of solutions in the intervall $[-1:1]$ only if $0\leq m\leq l$.\\
+If m is even $P_{l}^{m} \left ( x \right )$ is a polynomial. If $m=0$ and $l \in N $ then one receives the Legendre Polynomials. 
+Moreovoer it should be mentioned that the Legendre polynomials play an mportant role when determining the so called spherical harmonics.
+
+\section{Definition}
+
+
+
+
+
+
+
+
+\end{document}
